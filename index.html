@@ -1,0 +1,37 @@
+<!-- Registration Form -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f0f0f0;">
+    <h1 style="text-align: center; color: #00698f;">Registration Form</h1>
+    <form style="width: 50%; margin: 40px auto; padding: 20px; background-color: #fff; border: 1px solid #ddd; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        <label for="firstname" style="display: block; margin-bottom: 10px;">First Name:</label>
+        <input type="text" id="firstname" name="firstname" style="width: 100%; height: 30px; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc;"><br><br>
+        <label for="lastname" style="display: block; margin-bottom: 10px;">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" style="width: 100%; height: 30px; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc;"><br><br>
+        <label for="email" style="display: block; margin-bottom: 10px;">Email:</label>
+        <input type="email" id="email" name="email" style="width: 100%; height: 30px; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc;"><br><br>
+        <label for="phone" style="display: block; margin-bottom: 10px;">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" style="width: 100%; height: 30px; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc;"><br><br>
+        <label for="password" style="display: block; margin-bottom: 10px;">Password:</label>
+        <input type="password" id="password" name="password" style="width: 100%; height: 30px; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc;"><br><br>
+        <label for="confirm-password" style="display: block; margin-bottom: 10px;">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" style="width: 100%; height: 30px; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc;"><br><br>
+        <label for="birthday" style="display: block; margin-bottom: 10px;">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" style="width: 100%; height: 30px; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc;"><br><br>
+        <label for="gender" style="display: block; margin-bottom: 10px;">Gender:</label>
+        <select id="gender" name="gender" style="width: 100%; height: 30px; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc;">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+        <label for="terms-and-conditions" style="display: block; margin-bottom: 10px;">Terms and Conditions:</label>
+        <input type="checkbox" id="terms-and-conditions" name="terms-and-conditions" style="margin-bottom: 20px;"><br><br>
+        <input type="submit" value="Register" style="width: 100%; height: 30px; padding: 10px; background-color: #00698f; color: #fff; border: none; border-radius: 5px; cursor: pointer;">
+    </form>
+</body>
+</html>
